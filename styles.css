@@ -11,7 +11,6 @@ header {
     color: black;
     padding: 20px;
     text-align: center;
-    border: 2px solid #4B0082;
 }
 
 p {
@@ -40,10 +39,25 @@ section {
 
 .project {
     border: 2px solid #4B0082;
-    margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
+    margin: auto;
+    width: 70%;
 }
+
+.project2 {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+}
+
+.center2 {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
 
 footer {
     text-align: center;
@@ -52,9 +66,17 @@ footer {
     color: black;
     position: relative;
     bottom: 0;
-    width: 100%;
-    border: 2px solid #4B0082;
 }
+
+#wrapper {
+    width: 90%;
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 1em auto;
+    background-color: #cee9f7;
+    padding: 0;
+    border-radius: 3px;
+ }
 
 @media (max-width: 600px) {
     header h1 {
